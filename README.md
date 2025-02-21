@@ -53,6 +53,39 @@ Project này là xây dựng 1 ứng dụng web đơn giản giúp cho người 
 ```bash
     cd django-tiny-app
 ```
-## d. Link Project đã triển khai của bạn
+3. Tạo môi trường ảo (có thể không cần, nhưng khuyến khích)
+```bash
+    python -m venv venv
+```
+4. Kích hoạt môi trường ảo
+- Trên Window:
+```bash
+   venv\Scripts\activate
+```
+- Trên macOS/Linux
+ ```bash
+   source venv/bin/activate
+```   
+5. Cài đặt các dependencies
+```bash
+    pip install -r requirements.txt
+```
+6. Chạy migrations để tạo cơ sở dữ liệu
+```bash
+    python manage.py migrate
+```  
+7. Tạo superuser (quản trị viên)
+```bash
+    python manage.py createsuperuser
+```    
+8. Chạy ứng dụng
+```bash
+    python manage.py runserver
+```
+9. Truy cập ứng dụng
+Mở trình duyệt và Truy cập ứng dụng: [http://localhost:8000](http://localhost:8000)  
+## d. Link Project đã triển khai 
+
+
 
 
