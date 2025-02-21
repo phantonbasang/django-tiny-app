@@ -42,5 +42,17 @@ Project này là xây dựng 1 ứng dụng web đơn giản giúp cho người 
   - **Reset mật khẩu**: Hỗ trợ người dùng quên mật khẩu.
 - Hiển thị thông báo khi tài khoản bị khóa.
 
----
+## c. Hướng dẫn cài đặt, chạy
+### Các bước cài đặt
+1. **Clone repository**:
+```bash
+   git clone https://github.com/your-username/django-tiny-app.git
+```
+2. **Di chuyển vào thư mục Project
+
+```bash
+    cd django-tiny-app
+```
+## d. Link Project đã triển khai của bạn
+
 
